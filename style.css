@@ -1,0 +1,101 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: initial;
+ }
+header{
+    width: 100%;
+    line-height: 15vh;
+    background-color: #bd16bd;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+section{
+      height: 85vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f378df;
+}
+.gameArea{
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    background-color: #c846fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+input{
+    width: 40%;
+    padding: 15px 0;
+    border-radius: 25px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #dff9fb;
+    color: black;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+button.btn{
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: white;
+    text-align: center;
+    color: blueviolet;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezir(0.65,-0.25,0.25,1.95);
+}
+button.btn:hover,button.btn:focus,button.btn:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+   
+header{
+     line-height: 12vh;
+}
+
+h1{
+     font-size: 1.4rem;
+}
+
+.gameArea{
+     width: 82%;
+     height: 385px;
+}
+
+h3{
+     font-size: 2.0rem;
+}
+
+input{
+     width: 66%;
+     padding: 12px 0;
+     border-radius: 100px;
+     font-size: 1.5rem;;
+}
+button.btn{
+     font-size: 13px;
+     padding: -0.5rem 6rem;
+     border-radius: 30px;
+}
+}   
